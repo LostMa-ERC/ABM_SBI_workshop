@@ -81,7 +81,7 @@ def subtree_size(graph, node):
     return len(dfs_tree(graph,node).nodes())
 
 
-def generate_tree(lda, mu, Nact, Ninact):
+def generate_tree(lda, mu, Tact, Tinact):
     """
     Generate a tree (arbre réel) according to birth death model.
 
